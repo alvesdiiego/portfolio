@@ -1,14 +1,15 @@
 .header-wrapper {
+    width: auto;
     height: 4rem;
     background: linear-gradient(75deg, #9f42c05f, #085078,#4ca59b, #1fa194);
     background-size: 400% 400%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: backgroundTransition 8s ease-in-out infinite;
-    position: relative;
 }
+
+
 
 @keyframes backgroundTransition {
     0% {
@@ -22,3 +23,4 @@
     }
     
 }
+

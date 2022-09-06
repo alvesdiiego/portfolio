@@ -1,0 +1,19 @@
+.ho:hover{
+    transform: scale(1.1);
+    margin:0rem 0rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+}
+.ho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width: 100%;
+    
+    
+    margin:0rem 0rem;
+    margin-top: 4.5rem;
+    
+}
