@@ -1,42 +1,43 @@
+
 <main class="container">
     <div class="grid text-center">
         <div class="m-2">
             <h1 class="display-4">Projetos</h1>
         </div>
-        <div class="ho">
-         <div class="card" style="width:100%;">
-                <img src="/assets/img/img7.png" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">Cálculos JS</h5>
-                <p class="card-text">O projeto basicamente é uma calculadora, que realiza operações básicas de mátematica , e a tabuada. Projeto desenvolvido com JAVASCRIPT, CSS e HTML.</p>
-                <div class="text-center">
-                <a class="btn btn-primary" href="https://alvesdiiego.github.io/calculadoraJS/" target="_blank" >Visitar</a>link:<a class="btn btn-sm" href="https://alvesdiiego.github.io/calculadoraJS/" target="_blank">https://alvesdiiego.github.io/calculadoraJS/</a> 
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="ho">
-            <div class="card" style="width: 85%;">
-                   <img src="/assets/img/img8.png" class="card-img-top">
-               <div class="card-body">
-                   <h5 class="card-title">Bankline APP</h5>
-                   <p class="card-text">O Projeto simula um banco real , onde é possivel fazer cadastros, consultar extratos, realizar operações bancarias.O progama é divido em duas partes , front-end que foi desenvolvido em ANGULAR , e o back-end em JAVA com SPRING FRAMEWORK</p>
-                   <a class="btn btn-primary" href="https://appbankline.netlify.app/" target="_blank" >Visitar</a>
-                   link:<a class="btn" href="https://appbankline.netlify.app/" target="_blank">https://appbankline.netlify.app/</a>
-               </div>
-             </div>
+     </div>
+           
+        <ngb-carousel class="carousel-dark" >
+         <ng-template ngbSlide>
+           <div class="picsum-img-wrapper" >
+             <img src="/assets/img/img7.png" class="img-fluid" alt="Imagem do projeto cálculos javascritp">
            </div>
-        
-           <div class="ho">
-            <div class="card" style="width: 85%;">
-                   <img src="/assets/img/img5.png" class="card-img-top">
-               <div class="card-body">
-                   <h5 class="card-title">Pesquisa Github</h5>
-                   <p class="card-text">O projeto é uma plataforma de pesquisa de usuarios do github, onde é possivel consultar algumas informações do usuario. O front-end foi desenvolvido com REACT e a própria API do Github</p>
-                   <a class="btn btn-primary" href="https://pesquisagh.netlify.app/" target="_blank" >Visitar</a>
-                   link:<a class="btn" href=" https://pesquisagh.netlify.app/" target="_blank">https://pesquisagh.netlify.app/</a> 
-               </div>
-             </div>
+           <div class="carousel-caption">
+             <h3>Cálculos JS</h3>
+             <p >O projeto basicamente é uma calculadora, que realiza operações básicas de mátematica e a tabuada. Projeto desenvolvido com JAVASCRIPT, CSS e HTML.</p>
+             <a class="btn btn-primary" href="https://alvesdiiego.github.io/calculadoraJS/" target="_blank" >Visitar</a> link:<a class="btn btn-sm" href="https://alvesdiiego.github.io/calculadoraJS/" target="_blank">https://alvesdiiego.github.io/calculadoraJS/</a> 
            </div>
-    </div>
+         </ng-template>
+         <ng-template ngbSlide>
+           <div class="picsum-img-wrapper" >
+             <img src="/assets/img/img8.png" class="img-fluid"alt="Imagem do projeto bankline">
+           </div>
+           <div class="carousel-caption">
+             <h3>Bankline APP</h3>
+             <p>O Projeto simula um banco real, onde é possivel fazer cadastros, consultar extratos, realizar operações bancarias. O progama é divido em duas partes, front-end que foi desenvolvido em ANGULAR,  o back-end em JAVA com SPRING FRAMEWORK e POSTGRESQL.</p>
+             <a class="btn btn-primary" href="https://appbankline.netlify.app/" target="_blank" >Visitar</a> link:<a class="btn" href="https://appbankline.netlify.app/" target="_blank">https://appbankline.netlify.app/</a>
+           </div>
+         </ng-template>
+         <ng-template ngbSlide>
+           <div class="picsum-img-wrapper" >
+             <img src="/assets/img/img5.png" class="img-fluid" alt="Random third slide">
+           </div>
+           <div class="carousel-caption">
+             <h3>Pesquisa Github</h3>
+             <p>O projeto é uma plataforma de pesquisa de usuarios do github, onde é possivel consultar algumas informações do usuario. O front-end foi desenvolvido em REACTJS, e consumindo a própria API do Github.</p>
+             <a class="btn btn-primary" href="https://pesquisagh.netlify.app/" target="_blank" >Visitar</a> link:<a class="btn" href=" https://pesquisagh.netlify.app/" target="_blank">https://pesquisagh.netlify.app/</a>
+           </div>
+         </ng-template>
+       </ngb-carousel>
+ 
+     
 </main>

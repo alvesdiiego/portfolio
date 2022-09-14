@@ -7,7 +7,8 @@ import { ProjetosComponent } from './components/projetos/projetos.component';
 import { CertificadosComponent } from './components/certificados/certificados.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { HttpClientModule} from '@angular/common/http';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HttpClientModule} from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-
+    NgbModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

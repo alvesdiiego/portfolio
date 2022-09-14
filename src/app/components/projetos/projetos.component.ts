@@ -11,5 +11,6 @@ export class ProjetosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  images = ['/assests/img/img7.png', '/assests/img/img8.png', '/assests/img/img5.png'];
 }
+
