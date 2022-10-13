@@ -1,14 +1,19 @@
 .header-wrapper {
     width: auto;
-    height: 4rem;
+    height: 4.5rem;
+    margin:0% 0%;
     background: linear-gradient(75deg, #9f42c05f, #085078,#4ca59b, #1fa194);
     background-size: 400% 400%;
     display: flex;
     justify-content: center;
     align-items: center;
     animation: backgroundTransition 8s ease-in-out infinite;
+    font-size: 1.2rem;
     
+ 
 }
+
+
 
 
 
